@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-izai
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-tbow-tenant/build-suite-test-application-hjfq/test-annotations-izai@sha256:3b2685bda59be34bebabfb6638e9c07818f48aaf84079eab8ab790c7bfc11647
         name: my-nginx
         ports:
         - containerPort: 8080
