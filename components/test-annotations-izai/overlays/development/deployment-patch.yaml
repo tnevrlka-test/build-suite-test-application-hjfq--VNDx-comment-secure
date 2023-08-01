@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-izai
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-tbow-tenant/build-suite-test-application-hjfq/test-annotations-izai@sha256:3b2685bda59be34bebabfb6638e9c07818f48aaf84079eab8ab790c7bfc11647
+        name: my-nginx
+        resources: {}
+status: {}
