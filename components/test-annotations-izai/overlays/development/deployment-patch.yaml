@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/tnevrlka-test/build-e2e-tbow-tenant/build-suite-test-application-hjfq/test-annotations-izai@sha256:b9b614ecba5a065410979be0b0d309bdf9b232537f607e6d47193fd687d03c7f
+      - image: quay.io/tnevrlka-test/build-e2e-tbow-tenant/build-suite-test-application-hjfq/test-annotations-izai@sha256:bff909103b7a301e621e81348e898bb29f00cef698a0264be78a73b11eb90664
         name: my-nginx
         resources: {}
 status: {}
